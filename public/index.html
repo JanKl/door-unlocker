@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <script src="jquery.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Türe öffnen</title>
+</head>
+
+<body>
+  <script>
+    $(function () {
+      $('#openDoor').click(function () {
+        $.get("/openDoor").done(function () {
+          alert("Die Türe ist offen");
+        });
+      })
+    });
+  </script>
+  <button name="openDoor" id="openDoor">Türe öffnen</button>
+</body>
+
+</html>

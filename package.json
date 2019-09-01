@@ -1,0 +1,19 @@
+{
+  "name": "door-unlocker",
+  "version": "1.0.0",
+  "description": "Door unlocker software. Provides the user with a Web GUI that allows for triggering a relais using a Raspberry Pi Zero W.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanKl/door-unlocker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JanKl",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "onoff": "^4.1.3"
+  }
+}
